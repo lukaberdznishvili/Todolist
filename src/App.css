@@ -1,0 +1,170 @@
+.App{
+  width: 100wh;
+  height: 100vh;
+  background-color: black;
+}
+.component_todo{
+  text-align: center;
+  padding-top: 5%;
+}
+
+.text_on_second_jsx{
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+.div1_second_jsx{
+  
+  text-align: center;
+}
+.button_on_first_page{
+  cursor: pointer;
+  background-color: #5efc8d;
+  font-size: 40px;
+  font-weight: 100;
+  border: 0;
+  border-radius: 4px;
+  font: normal;
+  
+}
+.button_one_div{
+  text-align: center;
+  margin-top: 16%;
+}
+@media (max-width: 640px) {
+  .component1{
+    width: 12%;
+    height: 24%;
+  }
+  .text_on_second_jsx{
+    font-size: 20px;
+  }
+  .button_on_first_page{
+    font-size: 30px;
+  }
+  .button_one_div{
+    margin-top: 55%
+  }
+}
+.setshowcomponent4div{
+  position: absolute;
+  color: black;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 90%;
+  border-radius: 5px;
+  text-align: center;
+}
+.component4_text1{
+  font-size: 48px;
+  font-weight: 600;
+}
+.component4_text2{
+  font-size: 32px;
+  font-weight: 300;
+}
+.component4_text3{
+  font-size: 32px;
+  font-weight: 300;
+  margin-top: 8%;
+}
+.component4_input{
+  padding-top: 5%;
+}
+.component4_input2{
+  font-size: 30px;
+  height: 10%;
+  width: 70%;
+  border: 0;
+  background-color: rgb(199, 199, 199);
+  border-radius: 5px;
+  text-align: center;
+}
+.button_on_second_page{
+  margin-top: 6%;
+  cursor: pointer;
+  background-color: #5efc8d;
+  font-size: 30px;
+  font-weight: 100;
+  border: 0;
+  border-radius: 4px;
+  width: 40%;
+  height: 10%;
+  
+}
+
+@media (max-width: 540px) {
+  .component4_text1{
+    font-size: 28px;
+  }
+  .component4_text2{
+    font-size: 20px;
+  }
+  .component4_text3{
+    font-size: 20px;
+  }
+  .component4_input2{
+    font-size: 20px;
+    
+  }
+  .button_on_second_page{
+    font-size: 20px;
+    margin-top: 20%;
+    width: 50%;
+    
+  }
+}
+.Nav_div_1{
+  position: absolute;
+  background-color: black;
+  width: 100vw;
+}
+.To_do{
+  font-weight: bold;
+  padding-left: 5%;
+  color: white;
+}
+.TodoWrapper{
+  position: absolute;
+  background-color: silver;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 80%;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 1%;
+}
+.todo_input{
+  color: black;
+  margin-top: 2%;
+  
+}
+.todo-btn{
+  background-color: gold;
+  color: black;
+  border: 0;
+  
+}
+.Todo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 30%;
+  color : red;
+  font-size: 20px;
+  
+}
+
+.icons{
+  margin-left: 5%;
+  display: flex;
+  
+}
+.icon1{
+  margin-left: 20%;
+}
